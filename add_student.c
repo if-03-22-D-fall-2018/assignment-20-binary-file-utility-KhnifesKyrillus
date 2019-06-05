@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
     fseek(fd,0,SEEK_SET);
     fread(&id,sizeof(int),1,fd);
     fseek(fd,0,SEEK_END);
-    
+
     fwrite(&id,sizeof(id),1,fd);
     fwrite(first_name,sizeof(first_name),1,fd);
     fwrite(last_name,sizeof(last_name),1,fd);
