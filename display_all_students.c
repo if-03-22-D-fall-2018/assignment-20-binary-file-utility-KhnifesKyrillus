@@ -1,8 +1,4 @@
 #include <stdio.h>
-<<<<<<< HEAD
-
-=======
->>>>>>> 077caee29fda1bcc42fdcaa5e5da64671057668e
 
 #define Length 64
 

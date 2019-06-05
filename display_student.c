@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #define Lenght 64
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[]) 
+{
   char first_name[Lenght];
   char last_name[Lenght];
   int age;
